@@ -29,8 +29,8 @@ const disable_cache = false
 
 const replace_dict = {
     '$upstream': '$custom_domain',
-    'sta.itemqq.sunxiaochuannmsl.workers.dev':'stacf.sunxiaochuannmsl.workers.dev',
-    'assets.itemqq.sunxiaochuannmsl.workers.dev':'cfassets.sunxiaochuannmsl.workers.dev'
+    'sta.cf.<YOUR-SUBDOMAIN>.workers.dev':'stacf.<YOUR-SUBDOMAIN>.workers.dev',
+    'assets.cf.<YOUR-SUBDOMAIN>.workers.dev':'cfassets.<YOUR-SUBDOMAIN>.workers.dev'
 }
 let data={}
 addEventListener('fetch', event => {
